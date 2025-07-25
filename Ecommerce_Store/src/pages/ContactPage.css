@@ -1,0 +1,41 @@
+/* ContactPage.css */
+
+.contact-page {
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec); /* Gradient background */
+}
+
+/* Page Title */
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Info and Form Cards */
+.contact-card {
+background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-bottom: 40px;
+  padding: 30px;
+  border: none;
+}
+
+/* Send Message Button */
+.contact-btn {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background: linear-gradient(to right, #0056b3, #0099cc);
+  transform: scale(1.05);
+}
